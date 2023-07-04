@@ -18,7 +18,7 @@
 ">
 </a> 
 <a href="mailto:kubigkorea@gmail.com"><img src="https://img.shields.io/badge/Gmail-d14836?style=for-the-badge&logo=Gmail&logoColor=white&link=viliketh1s98@naver.com"/></a>
-<a href="https://spectrum-title-805.notion.site/KUBIG-525637dea0aa43d9a7da1bd51e69b153?pvs=4"><img src="https://img.shields.io/badge/-Notion-000000?logo=notion&logoColor=white&style=flat&color=brightgreen&logoWidth=80&logoHeight=80">
+<a href="https://spectrum-title-805.notion.site/KUBIG-525637dea0aa43d9a7da1bd51e69b153?pvs=4"><img src="https://img.shields.io/badge/-Notion-000000?logo=notion&logoColor=white&style=flat&color=brightgreen&logoHeight=80">
 </a>
 <br>
 
