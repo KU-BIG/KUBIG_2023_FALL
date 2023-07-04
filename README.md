@@ -14,8 +14,8 @@
 ## Contact
 
   <a href="https://www.instagram.com/kubig.official"><img src="https://img.shields.io/badge/Instagram-E4405F?style=for-the-badge&logo=Instagram&logoColor=white&link=https://www.instagram.com/woo0_hooo/"/></a>
-<a href="mailto:dayeonki@korea.ac.kr"><img src="https://img.shields.io/badge/Gmail-d14836?style=for-the-badge&logo=Gmail&logoColor=white&link=viliketh1s98@naver.com"/></a>
-<a href="https://www.facebook.com/kubigdata"><img src="https://img.shields.io/badge/Facebook-%231877F2.svg?style=for-the-badge&logo=Facebook&logoColor=white"/></a>
+<a href="mailto:kubigkorea@gmail.com"><img src="https://img.shields.io/badge/Gmail-d14836?style=for-the-badge&logo=Gmail&logoColor=white&link=viliketh1s98@naver.com"/></a>
+<a href="https://spectrum-title-805.notion.site/KUBIG-525637dea0aa43d9a7da1bd51e69b153?pvs=4"><img src="https://img.shields.io/badge/-Notion-000000?logo=notion&logoColor=white&style=flat">
 <br>
 
 ## 운영진
