@@ -1,20 +1,20 @@
 # 2023SUMMER CV 분반
-<br>
+<br/>
 분반장: 장수혁(산업경영공학부 18)
-<br>
+<br/>
 
 [분반 소개 및 스터디 목표]
 
 - 저명한 강의인 스탠포드의 cs231n 강의를 바탕으로 딥러닝과 컴퓨터 비전에 대한 폭넓은 이해를 목표로 한다
 - 과제를 통해 배운 개념을 pytorch와 tensorflow를 활용해 구현해보고, 팀 프로젝트를 통해 문제 해결 능력을 확장시킨다
 - 최근 생성형 AI 트렌드에 대응하기 위해 GAN부터 diffusion까지 관련 논문을 리뷰하고 생성 모델의 원리를 이해한다
-<br>
+<br/>
 Who 모집대상!
 
 - **딥러닝을 공부한 경험이 있고, CNN 등 기본적인 neural network 개념을 숙지하고 있는 학회원**
 - CV 분야에 관심이 많고 관련 프로젝트를 진행해보고 싶은 학회원
 - Stable diffusion, DALL-E 2와 같은 **Image generation**에 관심이 있고 그 원리에 대해 공부해보고 싶은 학회원
-<br>
+<br/>
 How 진행방식!
 
 - 커리큘럼 초반(1~5주차)
@@ -30,13 +30,13 @@ How 진행방식!
         - 개인별로 리뷰한 논문에 대해 세미나 진행 (20분 이내) + 팀원 간 질의응답
     - 세션 이후
         - 리뷰한 논문 티스토리 정리 **(필수)**
-<br>
+<br/>
 <교재>
 
 - CS231n 강의 [https://www.youtube.com/playlist?list=PL3FW7Lu3i5JvHM8ljYj-zLfQRF3EO8](https://www.youtube.com/playlist?list=PL3FW7Lu3i5JvHM8ljYj-zLfQRF3EO8sYv)
 - 분반장 제작 PPT
 - 주제별 관련 논문
-<br>
+<br/>
 <커리큘럼>
 - 1주차: OT (CS231n)
 - 2주차: Detection and Segmentation (CS231n)
@@ -48,7 +48,7 @@ How 진행방식!
 
 *Generative Models 심화 seesion 주제는 팀마다 유동적으로 변경될 수 있습니다.
 
-<br>
+<br/>
 |  | 날짜 | 주제 | 내용 |
 | --- | --- | --- | --- |
 | 1주차 | 2023.07.06 | OT |  |
