@@ -50,11 +50,11 @@ How 진행방식!
 |  | 날짜 | 주제 | 내용 |  |
 | --- | --- | --- | --- | --- |
 | 1주차 | 2023.07.06 | OT |  |  |
-| 2주차 | 2023.07.13 | Detection and Segmentation | CS231n review |  |
-| 3주차 | 2023.07.20 | Visualizing and Understanding | CS231n review | 쿠빅 콘테스트 주제 가수요조사 |
-| 4주차 | 2023.07.27 | Generative Models | CS231n review | 쿠빅 콘테스트 팀 확정 |
-| 5주차 | 2023.08.03 | BigGAN, StyleGAN | 논문스터디 |  |
-| 6주차 | 2023.08.10 | Diffusion | 논문스터디 |  |
-| 7주차 | 2023.08.17 | Text-to-Image Generation | 논문스터디 |  |
-|  | 2023.08.31 | KUBIG CONTEST |  |  |
+| 2주차 | 2023.07.13 | Detection and Segmentation | CS231n review | 
+| 3주차 | 2023.07.20 | Visualizing and Understanding | CS231n review | 
+| 4주차 | 2023.07.27 | Generative Models | CS231n review | 
+| 5주차 | 2023.08.03 | BigGAN, StyleGAN | 논문스터디 | 
+| 6주차 | 2023.08.10 | Diffusion | 논문스터디 | 
+| 7주차 | 2023.08.17 | Text-to-Image Generation | 논문스터디 | 
+|  | 2023.08.31 | KUBIG CONTEST | 
 |  |  |  |  |  |
