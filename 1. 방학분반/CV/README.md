@@ -56,4 +56,3 @@ How 진행방식!
 6주차	2023.08.10	Diffusion	논문스터디
 7주차	2023.08.17	Text-to-Image Generation	논문스터디
 	2023.08.31	KUBIG CONTEST	
-			
