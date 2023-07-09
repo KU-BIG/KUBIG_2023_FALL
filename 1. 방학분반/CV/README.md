@@ -47,12 +47,15 @@ How 진행방식!
 
 *Generative Models 심화 seesion 주제는 팀마다 유동적으로 변경될 수 있습니다.
 
-	날짜	주제	내용
-1주차	2023.07.06	OT	
-2주차	2023.07.13	Detection and Segmentation	CS231n review
-3주차	2023.07.20	Visualizing and Understanding	CS231n review
-4주차	2023.07.27	Generative Models	CS231n review
-5주차	2023.08.03	BigGAN, StyleGAN	논문스터디
-6주차	2023.08.10	Diffusion	논문스터디
-7주차	2023.08.17	Text-to-Image Generation	논문스터디
-	2023.08.31	KUBIG CONTEST	
+
+|  | 날짜 | 주제 | 내용 |
+| --- | --- | --- | --- |
+| 1주차 | 2023.07.06 | OT |  |
+| 2주차 | 2023.07.13 | Detection and Segmentation | CS231n review |
+| 3주차 | 2023.07.20 | Visualizing and Understanding | CS231n review |
+| 4주차 | 2023.07.27 | Generative Models | CS231n review |
+| 5주차 | 2023.08.03 | BigGAN, StyleGAN | 논문스터디 |
+| 6주차 | 2023.08.10 | Diffusion | 논문스터디 |
+| 7주차 | 2023.08.17 | Text-to-Image Generation | 논문스터디 |
+|  | 2023.08.31 | KUBIG CONTEST |  |
+|  |  |  |  |
