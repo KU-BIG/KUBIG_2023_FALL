@@ -37,6 +37,7 @@ How 진행방식!
 - 분반장 제작 PPT
 - 주제별 관련 논문
 <br/>
+
 <커리큘럼>
 - 1주차: OT (CS231n)
 - 2주차: Detection and Segmentation (CS231n)
@@ -49,6 +50,7 @@ How 진행방식!
 *Generative Models 심화 seesion 주제는 팀마다 유동적으로 변경될 수 있습니다.
 
 <br/>
+
 |  | 날짜 | 주제 | 내용 |
 | --- | --- | --- | --- |
 | 1주차 | 2023.07.06 | OT |  |
