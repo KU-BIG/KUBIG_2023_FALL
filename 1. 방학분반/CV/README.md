@@ -37,24 +37,23 @@ How 진행방식!
 - 주제별 관련 논문
 
 <커리큘럼>
-1주차: OT (CS231n)
-2주차: Detection and Segmentation (CS231n)
-3주차: Visualizing and Understanding (CS231n)
-4주차: Generative Models (CS231n)
-5주차: Generative Models 심화 1 : BigGAN, StyleGAN(논문리뷰)
-6주차: Generative Models 심화 2 : Diffusion (논문리뷰)
-7주차: Generative Models 심화 3 : Text-to-Image Generation (논문리뷰)
+- 1주차: OT (CS231n)
+- 2주차: Detection and Segmentation (CS231n)
+- 3주차: Visualizing and Understanding (CS231n)
+- 4주차: Generative Models (CS231n)
+- 5주차: Generative Models 심화 1 : BigGAN, StyleGAN(논문리뷰)
+- 6주차: Generative Models 심화 2 : Diffusion (논문리뷰)
+- 7주차: Generative Models 심화 3 : Text-to-Image Generation (논문리뷰)
 
 *Generative Models 심화 seesion 주제는 팀마다 유동적으로 변경될 수 있습니다.
 
-|  | 날짜 | 주제 | 내용 |  |
-| --- | --- | --- | --- | --- |
-| 1주차 | 2023.07.06 | OT |  |  |
-| 2주차 | 2023.07.13 | Detection and Segmentation | CS231n review | 
-| 3주차 | 2023.07.20 | Visualizing and Understanding | CS231n review | 
-| 4주차 | 2023.07.27 | Generative Models | CS231n review | 
-| 5주차 | 2023.08.03 | BigGAN, StyleGAN | 논문스터디 | 
-| 6주차 | 2023.08.10 | Diffusion | 논문스터디 | 
-| 7주차 | 2023.08.17 | Text-to-Image Generation | 논문스터디 | 
-|  | 2023.08.31 | KUBIG CONTEST | 
-|  |  |  |  |  |
+	날짜	주제	내용
+1주차	2023.07.06	OT	
+2주차	2023.07.13	Detection and Segmentation	CS231n review
+3주차	2023.07.20	Visualizing and Understanding	CS231n review
+4주차	2023.07.27	Generative Models	CS231n review
+5주차	2023.08.03	BigGAN, StyleGAN	논문스터디
+6주차	2023.08.10	Diffusion	논문스터디
+7주차	2023.08.17	Text-to-Image Generation	논문스터디
+	2023.08.31	KUBIG CONTEST	
+			
