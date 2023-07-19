@@ -1,6 +1,6 @@
 # 2023 KUBIG DL
 
-분반장: 임정준(전기전자공학부 19)
+분반장: 16기 임정준(전기전자공학부 19)
 
 [분반 소개 및 스터디 목표]
 - Pytorch based Introduction to Deep learning & Naive Implementation
@@ -15,18 +15,30 @@ Who 모집대상!
 How 진행방식!
 
 *본 분반은 cs231n 전반부에 해당하는 내용을 깊게 다룹니다.
+
 *Textbook: cs231n 기반 강의자료
+
 *Assignment: Pytorch Coding + Paper Reading(Tistory) + DL project
 
-  스터디 전: 팀별로 논문 리딩 및 발표 자료 준비
-  스터디 중: 팀별 발표(10분*n) + 세션 1시간
-  스터디 후: Assignment & Solution Code Video
+
+-  스터디 전: 팀별로 논문 리딩 및 발표 자료 준비
+  
+-  스터디 중: 팀별 발표(10분*n) + 세션 1시간
+  
+-  스터디 후: Assignment & Solution Code Video
 
 <커리큘럼>
+
 1주차: Intro to DL & Basic Linear Algebra
+
 2주차: Loss Function & Optimization
+
 3주차: Backpropagation & NN
+
 4주차: Convolution Neural Network
+
 5주차: Recurrent Neural Network
+
 6주차: Training Techniques
+
 7주차: BeRT & Transformer Packaging
