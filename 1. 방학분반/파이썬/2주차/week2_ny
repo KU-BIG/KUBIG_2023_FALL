@@ -1,0 +1,38 @@
+#!/usr/bin/env python3
+# -*- coding: utf-8 -*-
+"""
+Created on Fri Jul 14 01:56:24 2023
+
+@author: nang
+"""
+
+# 1.
+year = range(2014,2024)
+value = range(10,20)
+
+# 1-1 import pyplot in matplotlib as plt
+# 1-2 Draw line plot in red color, setting year as horizontal axis and value as vertical axis 
+# 1-3 add xlabel 'year', ylabel 'value' and title 'Exercise 1'
+# 1-4 show and clean up plt
+
+# 2.
+# make if-elif-else statement
+# if a is older than 55, display 'seniors'
+# if a is between 30 and 55 yrs old, display 'middle'
+# if a is 15-29 yrs old, display 'young'
+# if a is less than 15 yrs old, display 'children'
+
+age = 19 # age
+
+## code here
+
+
+# 3.
+dic = {'name':'nayeon', 
+       'age': 24,
+       'gender': 'female',
+       'pet': 'haru'}
+
+# 3-1 update age to 22
+# 3-2 get the key 'age'
+# 3-3 add 'dal' to the key 'pet'
