@@ -7,7 +7,7 @@
 
 제목 : "Using LoRA for AI Profiling: Dynamic Persona Generation through Diffusion Modeling"
 
-주제 설명 : 생동감있게 움직이는 개인화된 AI 프로필을 생성합니다. diffusion model을 base model로 하며 개인의 특징은 lora fine tuning을 통해 구현했습니다. 생성된 AI 프로필의 움직임은 animatediff를 활용하였습니다.
+주제 설명 : 생동감있게 움직이는 개인화된 AI 프로필을 생성합니다. diffusion model을 베이스 모델로 사용했고 personal feature는 LoRA fine tuning을 통해 구현했습니다. 생성된 AI 프로필의 움직임은 animatediff를 활용하였습니다.
 
 ## Team
 
