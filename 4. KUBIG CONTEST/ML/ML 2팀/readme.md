@@ -36,7 +36,7 @@ train 데이터로 pycaret, autoML 등으로 분석했을 때, 어떤 모델을 
 
 wrapper method의 경우, 변수 subset을 구하고 각 조합마다 모델에 적용해야 하기 때문에, 변수가 많은 데이터 특성상 사용되지 않았다. 또한, wrapper method은 모델 훈련 과정에 적용되기 때문에, 모델 훈련 전에 미리 변수를 고르고자 하는 목표에 맞지 않기도 했다.
 따라서 filter method과 embedded method 중에서 가장 적절한 변수들을 골라낸 f_regression과 LASSO를 선택하였다. 
-두 변수선택법에 대해 각각의 회귀모형을 작성한다.
+두 변수선택법에 대해 각각의 회귀모형을 작성한다..
 
 ## 모델
 LASSO로, f_regression으로 변수 선택을 거친 데이터를 pycaret 적용 시 Gradient Boosting Regressor가 결과가 좋게 나왔기 때문에, 본 모델을 사용한다.
