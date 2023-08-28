@@ -60,10 +60,12 @@ DreamBooth - LoRA장점은?
 ## 최종 결과물
 
 1. LoRA + Stable diffusion
+   
 ![toonyou_image_grid](https://github.com/KU-BIG/KUBIG_2023_FALL/assets/95427125/be71c0f0-f7ab-4c86-835e-11b39e49139f)
 
 
 2. majicmixRealistic_betterV2V25
+
 ![채령-4](https://github.com/KU-BIG/KUBIG_2023_FALL/assets/95427125/306dd629-b1c1-4dbb-9a49-1651c9e772ea)
 ![00027-1793506252](https://github.com/KU-BIG/KUBIG_2023_FALL/assets/95427125/ccd3ca00-c008-4974-bebd-6f399b79bf29)
 ![v6-6_4](https://github.com/KU-BIG/KUBIG_2023_FALL/assets/95427125/da709963-0614-4404-b598-5d06bf03be83)
