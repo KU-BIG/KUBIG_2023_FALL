@@ -22,23 +22,48 @@
 
 1. textual inversion
 2. LoRA fine tuning
+LoRA(Low-Rank Adaptation of Large Language Models)란?
+LoRA는 PEFT(Parameter Effecient Fine-Tuning)의 기법 중 하나이다. Pre-trained model의 weight는 고정한 채로, 몇 개의 dense(fc) layer만 학습시켜 downstream task의 연산량을 줄일 수 있다. 
+LLM에서 등장한 LoRA기법은 diffusion모델에도 적용이 가능하다.
+
 원하는 대상이 포함된 20장의 이미지를 구축한 후 이미지마다 대응되는 캡션을 설정, stable diffusion을 training_model로 repeat, epochs, network_dim, network_alpha 등 hyperparameter를 조절하여 LoRA를 생성
 
 - [Guide - LoRA Style Training](https://civitai.com/questions/158/guide-lora-style-training)
 
 
-4. LoRA with Dreambooth
+3. LoRA with Dreambooth
+DreamBooth란?
 
+text-to-image 모델의 personalization 기법 중 하나.
+
+대상의 몇 장의 사진으로 text-to-image 모델을 fine tuning 하여 대상의 특징을 학습한다.
+
+다른 personalization 기법에 비해 학습된 데이터상의 포즈, 배경 이외에도 다양한 사진을 생성해낼 수 있다.
+
+DreamBooth - LoRA장점은? 
+
+기존 드림부스 기법은 모델 전체를 fine tuning하여 기존 Stable Diffusion 모델 만큼의 용량(2Gb)이 필요하다. LoRA 기법을 파일은 평균 100Mb정도로 사용자들 간의 모델 이동이 수월하다.
 ## text2gif
 
 1. AnimateDiff를 활용하여 text로 gif 파일을 생성
+   
 2. 적절한 base model과 직접 style을 학습한 LoRA 모델, 원하는 정도의 motion을 표현하는 motion_module을 구축
-3. prompt, n_prompt engineering을 통해 tuning을 진행
+
+3. Sampler, Step, Clip skip, CFG scale 등의 파라미터 조정으로 최적의 퀄리티를 만들어내는 값 찾기
+   
+4. prompt, n_prompt engineering을 통해 tuning을 진행
 
 
 ## 최종 결과물
+1. LoRA + Stable diffusion
 
-(유민)
+2. majicmixRealistic_betterV2V25
+
+3. ToonYou
+![00055-2048827467](https://github.com/KU-BIG/KUBIG_2023_FALL/assets/95427125/114a96f1-92c4-489b-ac38-da6e0660d9b1)
+![00059-2118982731](https://github.com/KU-BIG/KUBIG_2023_FALL/assets/95427125/86d63ae6-70c0-4e9c-9da9-d41778b2d37a)
+
+
 
 ## 개발환경
 <img src="https://img.shields.io/badge/Google Colab-F9AB00?style=for-the-badge&logo=Google Colab&logoColor=white"><img src="https://img.shields.io/badge/Visual Studio Code-007ACC?style=for-the-badge&logo=Visual Studio Code&logoColor=white">
