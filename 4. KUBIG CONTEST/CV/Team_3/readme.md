@@ -22,14 +22,18 @@
 
 1. textual inversion
 2. LoRA fine tuning
-원하는 대상이 포함된 20장의 이미지를 구축한 후 이미지마다 대응되는 캡션을 설정한다. 데이터셋이 구축되면 stable diffusion을 training_model로 하여 repeat, epochs, network_dim, network_alpha 등의 hyperparameter를 조절하며 LoRA를 생성한다.
-[Guide - LoRA Style Training](https://civitai.com/questions/158/guide-lora-style-training)
+원하는 대상이 포함된 20장의 이미지를 구축한 후 이미지마다 대응되는 캡션을 설정, stable diffusion을 training_model로 repeat, epochs, network_dim, network_alpha 등 hyperparameter를 조절하여 LoRA를 생성
+
+- [Guide - LoRA Style Training](https://civitai.com/questions/158/guide-lora-style-training)
 
 
 4. LoRA with Dreambooth
 
 ## text2gif
-AnimateDiff를 활용하여 text로 gif 파일을 생성한다. 적절한 base model과 직접 style을 학습한 LoRA 모델, 원하는 정도의 motion을 표현하는 motion_module을 구축한다. prompt, n_prompt engineering을 통해 tuning을 진행한다.
+
+1. AnimateDiff를 활용하여 text로 gif 파일을 생성
+2. 적절한 base model과 직접 style을 학습한 LoRA 모델, 원하는 정도의 motion을 표현하는 motion_module을 구축
+3. prompt, n_prompt engineering을 통해 tuning을 진행
 
 
 ## 최종 결과물
