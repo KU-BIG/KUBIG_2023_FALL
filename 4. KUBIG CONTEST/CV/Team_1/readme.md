@@ -7,7 +7,7 @@
 ## :mag: Introduction
 
 - 문제의식: 대규모행사에서 고질적인 문제로 꼽히는 분리수거 문제
-- 캔, 플라스틱, 유색페트, 무색페트, 일반쓰레기를 real time으로 Object Detection하는 Task 수행
+- 캔, 플라스틱, 유색페트, 무색페트, 일반쓰레기를 real time으로 Object Detection하여 분리수거에 기여
 
 <br>
 
