@@ -22,10 +22,12 @@
 
 1. textual inversion
 2. LoRA fine tuning
+   
 LoRA(Low-Rank Adaptation of Large Language Models)란?
-LoRA는 PEFT(Parameter Effecient Fine-Tuning)의 기법 중 하나이다. Pre-trained model의 weight는 고정한 채로, 몇 개의 dense(fc) layer만 학습시켜 downstream task의 연산량을 줄일 수 있다. 
-LLM에서 등장한 LoRA기법은 diffusion모델에도 적용이 가능하다.
 
+LoRA는 PEFT(Parameter Effecient Fine-Tuning)의 기법 중 하나이다. Pre-trained model의 weight는 고정한 채로, 몇 개의 dense(fc) layer만 학습시켜 downstream task의 연산량을 줄일 수 있다. 
+
+LoRA를 이용한 Stable diffusion Fine Tuning
 원하는 대상이 포함된 20장의 이미지를 구축한 후 이미지마다 대응되는 캡션을 설정, stable diffusion을 training_model로 repeat, epochs, network_dim, network_alpha 등 hyperparameter를 조절하여 LoRA를 생성
 
 - [Guide - LoRA Style Training](https://civitai.com/questions/158/guide-lora-style-training)
@@ -43,6 +45,7 @@ text-to-image 모델의 personalization 기법 중 하나.
 DreamBooth - LoRA장점은? 
 
 기존 드림부스 기법은 모델 전체를 fine tuning하여 기존 Stable Diffusion 모델 만큼의 용량(2Gb)이 필요하다. LoRA 기법을 파일은 평균 100Mb정도로 사용자들 간의 모델 이동이 수월하다.
+
 ## text2gif
 
 1. AnimateDiff를 활용하여 text로 gif 파일을 생성
@@ -55,13 +58,20 @@ DreamBooth - LoRA장점은?
 
 
 ## 최종 결과물
+
 1. LoRA + Stable diffusion
+![toonyou_image_grid](https://github.com/KU-BIG/KUBIG_2023_FALL/assets/95427125/be71c0f0-f7ab-4c86-835e-11b39e49139f)
+
 
 2. majicmixRealistic_betterV2V25
+![채령-4](https://github.com/KU-BIG/KUBIG_2023_FALL/assets/95427125/306dd629-b1c1-4dbb-9a49-1651c9e772ea)
+![00027-1793506252](https://github.com/KU-BIG/KUBIG_2023_FALL/assets/95427125/ccd3ca00-c008-4974-bebd-6f399b79bf29)
+![v6-6_4](https://github.com/KU-BIG/KUBIG_2023_FALL/assets/95427125/da709963-0614-4404-b598-5d06bf03be83)
 
 3. ToonYou
-![00055-2048827467](https://github.com/KU-BIG/KUBIG_2023_FALL/assets/95427125/114a96f1-92c4-489b-ac38-da6e0660d9b1)
-![00059-2118982731](https://github.com/KU-BIG/KUBIG_2023_FALL/assets/95427125/86d63ae6-70c0-4e9c-9da9-d41778b2d37a)
+
+![00059-2118982731](https://github.com/KU-BIG/KUBIG_2023_FALL/assets/95427125/e0362c22-2c32-4888-9729-3a267e242c66)
+![00064-1843641884](https://github.com/KU-BIG/KUBIG_2023_FALL/assets/95427125/2266bb23-5a1a-4e61-8d3a-8f551de6b8ba)
 
 
 
