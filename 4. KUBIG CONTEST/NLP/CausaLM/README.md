@@ -22,8 +22,7 @@ CausaLM은 텍스트 데이터에서 인과 관계를 파악하고, 기존의 �
 
 ※ CAUSALM_DIR에 사용되는 변수들은 `constants.py`에 명시되어 있습니다.
 
-GuideLine
-
+## GuideLine
 ### Stage 2 training
 
 다음 스크립트를 차례대로 실행해주세요.
