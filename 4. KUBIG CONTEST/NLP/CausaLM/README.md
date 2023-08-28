@@ -17,6 +17,8 @@ CausaLM은 텍스트 데이터에서 인과 관계를 파악하고, 기존의 �
 - Create the CausaLM conda environment : `conda activate causalm_gpu_env.yml`
 - Download the _adjectives_ datasets and place them in the `./datasets` folder
 - `pip install pytorch_lightning==0.5.3.2`
+- `transformers==2.7.0` `apex==0.1` `cupy-pre` `spacy==2.3.8`
+- `python -m spacy download en_core_web_lg`
 
 ※ Make sure the CAUSALM_DIR variable in `constants.py` is set to point to the path where the CausaLM datasets are located.
 
