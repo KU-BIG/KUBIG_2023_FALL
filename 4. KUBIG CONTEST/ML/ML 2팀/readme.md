@@ -28,7 +28,7 @@ train 데이터로 pycaret, autoML 등으로 분석했을 때, 어떤 모델을 
 기존 변수들과 더불어, 착과량과 상관계수가 높은 새순에 대해 대푯값으로(평균, 중위수, 범위 등) 파생 변수들을 만들었다. 이렇게 기존 변수 182개 + 파생변수 15개 = 총 197개의 변수들을 가지고 변수선택법을 적용한다.
 
 변수 선택법은 다음과 같이 구분할 수 있다.
-- Filter method: mutual information (mutual_info_regression), linear regression F test (f_regression), chi-square test for feature selection (chi2)
+- Filter method: mutual information (mutual_info_regression), linear regression F test (f_regression), chi-square test for feature selection (chi2), Spearman correlation, feature importance
 - Embedded method: LASSO, Ridge, Elastic net
 - Wrapper method: forward selection, backward elimination, recursive feature elimination
 
