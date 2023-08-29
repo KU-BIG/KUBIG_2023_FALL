@@ -13,6 +13,39 @@ $ streamlit run streamlit/malang_news.py
 > 1. 원하는 뉴스의 URL 입력 (네이버 뉴스에 최적화)
 > 2. Inference 기다리고 결과 받아보기
 - 말투 변환 및 키워드 질문 정도 조절 가능
+## 프로젝트 구조
+```
+contest_nlp2023/
+│
+├── crawler/
+|   ├── headline_crawler_final.py
+|   ├── headline_crawler_onlybs.py
+|   ├── newneek_crawler.ipynb
+|   ├── news_crawler_final.py
+|   └── 네이버뉴스_크롤링.ipynb
+│
+├── model/
+│   ├── BART/
+|   |   ├── KoBART_navernews.ipynb
+|   |   ├── 생성요약_KoBART.ipynb
+|   |   └── 추출요약_KoBART.ipynb
+|   | 
+│   ├── KeyBERT/
+|   |   └── keyword_extract.ipynb
+│   |
+|   └── causalLM/
+|       ├── GPTtrain.py
+|       └── koalpaca_fine-tuning.ipynb
+|
+├── preprocessing/
+|   ├── json2csv.ipynb
+|   ├── newneek_preprocessing.ipynb
+|   └── news_preprocessing_labeling.ipynb
+|  
+└── streamlit/
+    ├── malang_news.py
+    └── utils.py
+```
 ## Dataset
 - 네이버뉴스 - 금융
 - 네이버뉴스 IT/과학 헤드라인 뉴스
