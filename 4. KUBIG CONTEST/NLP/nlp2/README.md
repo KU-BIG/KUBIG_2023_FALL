@@ -1,4 +1,8 @@
-# 말랑뉴스 🧠
+<div align="center">
+    <img src="https://github.com/2023KUBIGNLP2/contest_nlp2023/assets/104672441/e2a9e13c-cfdb-4bfc-a814-b3432a87c406" alt="말랑" width="" height="50">
+</div>
+
+# 말랑뉴스: 딱딱한 뉴스를 말랑말랑하게
 길고 복잡한 뉴스 원문을 짧게 요약하고 주요 키워드를 질답 형태로 풀어 설명해주는 서비스입니다.  
 딱딱한 문장에서 다른 말투로 변경이 가능하며, 키워드에 대해 질문하는 정도를 조절 가능합니다.   
 어려운 단어가 많은 IT/과학 분야 또는 금융 분야에 특화해 Fine-tuning 되었습니다.  
