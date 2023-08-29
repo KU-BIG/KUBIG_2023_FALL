@@ -1,6 +1,8 @@
 # KubigCVPoseEstiProject
 ## 주제 : 태권도 품새 동작 식별 프로젝트
 mp4 파일 내에 있는 태권도 품새 동작을 식별한 후 어떤 동작인지 알려주는 프로젝트이다.
+## 팀원
+16기 박민규, 17기 김지윤, 백서경, 임종우
 
 ### 1. Data extract
 AI Hub의 고양시 태권도 데이터에서 training dataset 을 추출한다.
