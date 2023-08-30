@@ -7,6 +7,7 @@
 
 
 #### Masked Ion Detection
+![IONQ](https://github.com/KU-BIG/KUBIG_2023_FALL/assets/120544973/b5644ae9-1880-4874-a363-a27e208284e6)
 
 
 ## 💛Introduction
