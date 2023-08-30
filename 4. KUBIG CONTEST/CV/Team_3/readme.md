@@ -71,9 +71,9 @@ DreamBooth - LoRA장점은?
 
 2. majicmixRealistic_betterV2V25
 
-![채령-4](https://github.com/KU-BIG/KUBIG_2023_FALL/assets/95427125/306dd629-b1c1-4dbb-9a49-1651c9e772ea)
 ![00027-1793506252](https://github.com/KU-BIG/KUBIG_2023_FALL/assets/95427125/ccd3ca00-c008-4974-bebd-6f399b79bf29)
 ![v6-6_4](https://github.com/KU-BIG/KUBIG_2023_FALL/assets/95427125/da709963-0614-4404-b598-5d06bf03be83)
+![v1-6-_5](https://github.com/KU-BIG/KUBIG_2023_FALL/assets/95427125/97b05ab3-00f5-4c78-af03-a0df6a68255b)
 
 3. ToonYou
 
@@ -81,6 +81,13 @@ DreamBooth - LoRA장점은?
 ![00064-1843641884](https://github.com/KU-BIG/KUBIG_2023_FALL/assets/95427125/2266bb23-5a1a-4e61-8d3a-8f551de6b8ba)
 
 
+### 학습 설정
+Best quality(유민 LoRA 모델, gif 이미지) 생성 설정 공유
+LoRA Training : 15 high quality image, repeat 40 , epoch 6 , step 3600, optimizer : adam8bit, learning rate 등 나머지 parameter는 기본 설정과 동일 / 학습 이미지의 퀄리티가 굉장히 중요
+AnimateDiff 생성 설정 : clip skip 2, step 45, sampler DDIM, CFG scale 15, motion module : 14
+DDIM sampler를 사용하지 않으면 gif가 두 이미지로 생성되게 됨.
+CFG scale : 너무 낮으면 이미지에서 회색 빛이 너무 많이 돌고, 높으면 glitter 현상 발생
+motion module 14가 15에 비해 이미지 움직임이 많고, watermark가 없음.
 
 ## 개발환경
 <img src="https://img.shields.io/badge/Google Colab-F9AB00?style=for-the-badge&logo=Google Colab&logoColor=white"><img src="https://img.shields.io/badge/Visual Studio Code-007ACC?style=for-the-badge&logo=Visual Studio Code&logoColor=white">
