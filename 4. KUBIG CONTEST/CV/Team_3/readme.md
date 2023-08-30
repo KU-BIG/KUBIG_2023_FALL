@@ -82,12 +82,12 @@ DreamBooth - LoRA장점은?
 
 
 ### 학습 설정
-Best quality(유민 LoRA 모델, gif 이미지) 생성 설정 공유
-LoRA Training : 15 high quality image, repeat 40 , epoch 6 , step 3600, optimizer : adam8bit, learning rate 등 나머지 parameter는 기본 설정과 동일 / 학습 이미지의 퀄리티가 굉장히 중요
-AnimateDiff 생성 설정 : clip skip 2, step 45, sampler DDIM, CFG scale 15, motion module : 14
-DDIM sampler를 사용하지 않으면 gif가 두 이미지로 생성되게 됨.
-CFG scale : 너무 낮으면 이미지에서 회색 빛이 너무 많이 돌고, 높으면 glitter 현상 발생
-motion module 14가 15에 비해 이미지 움직임이 많고, watermark가 없음.
+Best quality(유민 LoRA 모델, gif 이미지) 생성 설정 공유  
+LoRA Training : 15 high quality image, repeat 40 , epoch 6 , step 3600, optimizer : adam8bit, learning rate 등 나머지 parameter는 기본 설정과 동일 / 학습 이미지의 퀄리티가 굉장히 중요  
+AnimateDiff 생성 설정 : clip skip 2, step 45, sampler DDIM, CFG scale 15, motion module : 14  
+DDIM sampler를 사용하지 않으면 gif가 두 이미지로 생성되게 됨.  
+CFG scale : 너무 낮으면 이미지에서 회색 빛이 너무 많이 돌고, 높으면 glitter 현상 발생  
+motion module 14가 15에 비해 이미지 움직임이 많고, watermark가 없음.  
 
 ## 개발환경
 <img src="https://img.shields.io/badge/Google Colab-F9AB00?style=for-the-badge&logo=Google Colab&logoColor=white"><img src="https://img.shields.io/badge/Visual Studio Code-007ACC?style=for-the-badge&logo=Visual Studio Code&logoColor=white">
