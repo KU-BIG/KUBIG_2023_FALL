@@ -21,7 +21,7 @@
 - YOLOv5 Model Backbone 사용
 - Dataset Train/Test/Val split 
 - YOLOv5s pretrained Weights 사용
-- Linux / 2080 super
+- Linux / NVIDIA TITAN RTX
 - epoch: 100 / batch size: 16
 
 
