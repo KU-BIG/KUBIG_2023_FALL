@@ -18,7 +18,15 @@
 <br>
 
 ## :chart_with_upwards_trend: Train
-- YOLOv5 model 사용
-- train:val 비율 8:2
+- YOLOv5 Model Backbone 사용
+- Dataset Train/Test/Val split 
+- YOLOv5s pretrained Weights 사용
+- Linux / 2080 super
+- epoch: 100 / batch size: 16
 
-  (수정중)
+
+<br>
+
+## :computer: Environment
+  <img src="https://img.shields.io/badge/Python-3776AB?style=flat&logo=Python&logoColor=white"/> <img src="https://img.shields.io/badge/PyTorch-EE4C2C?style=flat&logo=PyTorch&logoColor=white"/><br>
+  <img src="https://img.shields.io/badge/Google Colab-F9AB00?style=flat&logo=Google Colab&logoColor=white"/> <img src="https://img.shields.io/badge/Visual Studio Code-007ACC?style=flat&logo=Visual Studio Code&logoColor=white"/> <img src="https://img.shields.io/badge/Linux-FCC624?style=flat&logo=Linux&logoColor=white"/>
