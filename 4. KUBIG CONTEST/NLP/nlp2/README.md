@@ -1,5 +1,5 @@
 <div align="center">
-    <img src="https://github.com/2023KUBIGNLP2/contest_nlp2023/assets/104672441/e2a9e13c-cfdb-4bfc-a814-b3432a87c406" alt="말랑" width="" height="50">
+    <img src="https://github.com/2023KUBIGNLP2/Malang_news/assets/104672441/482e7c0e-3406-4afe-bb2e-0670ff1b011a" alt="말랑" width="" height="50">
 </div>
 
 # 말랑뉴스: 딱딱한 뉴스를 말랑말랑하게
@@ -21,7 +21,7 @@ $ streamlit run streamlit/malang_news.py
 - **뉴스를 찾을 수 없어요.** 안내 문구 출력 시 url이 올바른지 확인
 ## 프로젝트 구조
 ```
-contest_nlp2023/
+nlp2/
 │
 ├── crawler/
 |   ├── headline_crawler_final.py
