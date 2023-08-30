@@ -2,6 +2,7 @@
     <img src="https://github.com/2023KUBIGNLP2/Malang_news/assets/104672441/482e7c0e-3406-4afe-bb2e-0670ff1b011a" alt="말랑" width="" height="50">
 </div>
 
+
 # 말랑뉴스: 딱딱한 뉴스를 말랑말랑하게
 길고 복잡한 뉴스 원문을 짧게 요약하고 주요 키워드를 질답 형태로 풀어 설명해주는 서비스입니다.  
 딱딱한 문장에서 다른 말투로 변경이 가능하며, 키워드에 대해 질문하는 정도를 조절 가능합니다.   
@@ -9,19 +10,24 @@
 [Team Notion](https://enchanted-gum-e41.notion.site/KUBIG-NLP-Project-659dac81a4f34a7883022319551751dd?pvs=4)  
 [시연 영상](https://youtu.be/0Mwv_NaXx0E)
 ## 서비스 이용하기
-**`malang_news.py`에 본인의 Huggingface API Key, OpenAI API Key를 입력해야 합니다.**
 ```
 $ pip install -r requirements.txt
 $ streamlit run streamlit/malang_news.py
 ```
 > 1. 원하는 뉴스의 URL 입력 (네이버 뉴스에 최적화)
 > 2. Inference 기다리고 결과 받아보기
-- 말투 변환 및 키워드 질문 정도 조절 가능
+
+### 주의사항
+- **`malang_news.py`에 본인의 Huggingface API Key, OpenAI API Key를 입력해야 합니다.**
+```
+API_TOKEN = "hf_xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx" # Huggingface
+API_KEY = "sk-xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx" # OpenAI
+```
 - **아직 모델을 불러오는 중이에요.** 안내 문구 출력 시 조금 뒤 다시 시도
-- **뉴스를 찾을 수 없어요.** 안내 문구 출력 시 url이 올바른지 확인
+- **뉴스를 찾을 수 없어요.** 안내 문구 출력 시 URL이 올바른지 확인
 ## 프로젝트 구조
 ```
-nlp2/
+Malang_news/
 │
 ├── crawler/
 |   ├── headline_crawler_final.py
