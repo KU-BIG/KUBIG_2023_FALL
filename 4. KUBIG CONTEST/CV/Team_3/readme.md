@@ -11,6 +11,11 @@
 - diffusion model을 베이스 모델로 사용하고 personal feature는 LoRA fine tuning을 통해 구현한다. 
 - 생성된 AI 프로필의 움직임은 animatediff를 활용한다.
 
+## 발표자료
+
+https://docs.google.com/presentation/d/1iNbBWvNVnd1eHdtF1XFE_Lw_XWexw9oj/edit?usp=sharing&ouid=107811774026611155765&rtpof=true&sd=true
+
+
 
 ## Team
 
