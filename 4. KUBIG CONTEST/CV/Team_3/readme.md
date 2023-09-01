@@ -5,7 +5,12 @@
 
 ## 주제
 
-제목 : "Using LoRA for AI Profiling: Dynamic Persona Generation through Diffusion Modeling"
+<img width="1439" alt="스크린샷 2023-09-01 오전 10 06 00" src="https://github.com/KU-BIG/KUBIG_2023_FALL/assets/103344737/7b149263-4418-4466-ba4c-da354f98ce1b">
+
+
+
+
+제목 : "NAVY: Note that this is an Animated Video for You"
 
 주제 설명 : 생동감있게 움직이는 개인화된 AI 프로필을 생성한다.
 - diffusion model을 베이스 모델로 사용하고 personal feature는 LoRA fine tuning을 통해 구현한다. 
