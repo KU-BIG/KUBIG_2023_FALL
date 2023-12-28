@@ -21,8 +21,8 @@
 - Method: Filter Method, Embedded Method, Wrapper Method를 활용해 유의미한 변수 추출, Baseline Model(Random Forest, Linear Regression)의 성능(MAE, MSE, $R^2$)으로 변수 검증
 ## 2. Clustering
 - Purpose: 정량적인 지표를 활용해 국가를 군집화해 정책을 참조할 만한 국가를 선정
-- Task: Clustering 기법을 활용해 `(1) ODA 규모 Data`, `(2) ODA 관련 Data`, `(3) 주요 변수가 포함된 Data` 세 관점에서 분석
-- Method: Hierarchical Clustering(Elbow Method, Complete Link)
+- Task: 고차원 정량적 지표 반영 `(1) ODA 규모 Data`, `(2) ODA 관련 Data`, `(3) 주요 변수가 포함된 Data` 관점에서 국가를 나누는 문제로 정의
+- Method: Hierarchical Clustering(Complete Link) 활용, Elbow Method로 군집 개수 선정
 # Results
 - Feature Importance 결과 13개 주요 변수 선정, $R^2$ 0.9816 달성하여 ODA 규모를 결정짓는 국가 지표 확정 
 - Clustering 결과 아래 3개국을 Reference 국가로 선정
