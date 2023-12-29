@@ -24,6 +24,7 @@ HIP-CT로 촬영한 3D Kidney image에서 주어진 혈관 이미지 데이터�
 
 
 2. 2.5D
+
    ![image](https://github.com/KU-BIG/KUBIG_2023_FALL/blob/main/3.%20%EC%9E%A5%EA%B8%B0%ED%94%84%EB%A1%9C%EC%A0%9D%ED%8A%B8/CV/2%ED%8C%80/Segmentation%202%ED%8C%80/Untitled%20(9).png)
 - Unet 구조 기반
 - slice된 이미지들을 연결 -> 학습 시간 축소
