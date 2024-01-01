@@ -25,4 +25,5 @@
 -  
 - 입력한 사용자와 유사한 사용자를 확인하고 유사한 사용자들이 좋아하는 recipe와 유사한 recipe를 최종 추천!
 - 협업 필터링 기반 추천 시스템 개발
+- Model-based collaborative filtering과 memory-based collaborative filterting 추천!
 - 사용 모델 : Neural CF
